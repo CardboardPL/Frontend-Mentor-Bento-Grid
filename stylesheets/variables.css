@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --clr-l-purple: hsl(254, 88%, 90%);
+  --clr-l-yellow: hsl(31, 66%, 93%);
+
+  --clr-d-purple: hsl(256, 67%, 59%);
+  --clr-d-yellow: hsl(39, 100%, 71%);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 7%);
+
+  /* Font weights */
+  --fw-r: 400;
+  --fw-b: 500;
+}
