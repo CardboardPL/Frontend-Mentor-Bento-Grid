@@ -1,0 +1,6 @@
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  list-style-type: none;
+}
