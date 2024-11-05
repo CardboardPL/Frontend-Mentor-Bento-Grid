@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  padding: 16px;
+  padding: var(--sp-m);
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -12,4 +12,8 @@
   /* Font weights */
   --fw-r: 400;
   --fw-m: 500;
+
+  /* Spacings */
+  --sp-m: 0.89rem; /* Medium */
+  --sp-l: 1.78rem; /* Large */
 }
