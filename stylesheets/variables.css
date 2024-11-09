@@ -1,10 +1,10 @@
 :root {
   /* Colors */
-  --clr-l-purple: hsl(254, 88%, 90%);
-  --clr-l-yellow: hsl(31, 66%, 93%);
+  --clr-l-1: hsl(254, 88%, 90%);
+  --clr-l-2: hsl(31, 66%, 93%);
 
-  --clr-d-purple: hsl(256, 67%, 59%);
-  --clr-d-yellow: hsl(39, 100%, 71%);
+  --clr-d-1: hsl(256, 67%, 59%);
+  --clr-d-2: hsl(39, 100%, 71%);
 
   --clr-white: hsl(0, 0%, 100%);
   --clr-black: hsl(0, 0%, 7%);
