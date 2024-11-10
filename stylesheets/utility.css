@@ -1,3 +1,4 @@
+/* General Utility Classes */
 .u-hidden {
   position: absolute;
   width: 1px;
@@ -9,7 +10,75 @@
   border: 0;
 }
 
+/* Font Size Utility Classes */
+.u-f-si--l {
+  font-size: 46px;
+}
+
+/* Font Style Utility Classes */
+.u-f-sty--n {
+  font-style: normal;
+}
+
 /* Text Utility Classes */
 .u-ta--c {
   text-align: center;
+}
+
+/* Color Utility Classes */
+.u-clr--l1 {
+  color: var(--clr-l-1);
+}
+
+.u-clr--l2 {
+  color: var(--clr-l-2);
+}
+
+.u-clr--d1 {
+  color: var(--clr-d-1);
+}
+
+.u-clr--d2 {
+  color: var(--clr-d-2);
+}
+
+.u-clr--white {
+  color: var(--clr-white);
+}
+
+.u-clr--black {
+  color: var(--clr-black);
+}
+
+/* Background Color Utility Classes */
+.u-bg-clr--l1 {
+  background-color: var(--clr-l-1);
+}
+
+.u-bg-clr--l2 {
+  background-color: var(--clr-l-2);
+}
+
+.u-bg-clr--d1 {
+  background-color: var(--clr-d-1);
+}
+
+.u-bg-clr--d2 {
+  background-color: var(--clr-d-2);
+}
+
+/* Height Utility Classes */
+.u-h-m {
+  height: 24px;
+}
+
+/* Margin Utility Classes */
+.u-mrgn--t-l {
+  margin-top: 22px;
+}
+
+/* Padding Utility Classes */
+.u-pdng--lr-sm {
+  padding-left: 8px;
+  padding-right: 8px;
 }
