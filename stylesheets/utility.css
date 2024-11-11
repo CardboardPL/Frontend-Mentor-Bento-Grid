@@ -10,6 +10,25 @@
   border: 0;
 }
 
+/* Display Utility Classes */
+.u-dsply--blck {
+  display: block;
+}
+
+.u-dsply--flx {
+  display: flex;
+}
+
+/* Flexbox Utility Classes */
+.u-flx-dir--cr {
+  flex-direction: column-reverse;
+}
+
+/* Gap Utility Classes */
+.u-gap--sm {
+  gap: 17px;
+}
+
 /* Font Size Utility Classes */
 .u-f-si--l {
   font-size: 46px;
@@ -23,6 +42,22 @@
 /* Text Utility Classes */
 .u-ta--c {
   text-align: center;
+}
+
+.u-lh--sm {
+  line-height: 0.91;
+}
+
+.u-lh--xsm {
+  line-height: 0.9;
+}
+
+.u-lttr-sp--sm {
+  letter-spacing: -0.16px;
+}
+
+.u-lttr-sp--xsm {
+  letter-spacing: -1.7575px;
 }
 
 /* Color Utility Classes */
@@ -67,17 +102,42 @@
   background-color: var(--clr-d-2);
 }
 
+.u-bg-clr--white {
+  background-color: var(--clr-white);
+}
+
 /* Height Utility Classes */
 .u-h-m {
-  height: 24px;
+  height: 32px;
 }
 
 /* Margin Utility Classes */
-.u-mrgn--t-l {
-  margin-top: 22px;
+.u-mrgn--t-sm {
+  margin-top: 5px;
+}
+
+.u-mrgn--t-m {
+  margin-top: 24px;
+}
+
+.u-mrgn--lr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-mrgn--b-msm-1 {
+  margin-bottom: 20px;
 }
 
 /* Padding Utility Classes */
+.u-pdng--m {
+  padding: var(--sp-m);
+}
+
+.u-pdng--b-m-minus {
+  padding: 15px;
+}
+
 .u-pdng--lr-sm {
   padding-left: 8px;
   padding-right: 8px;
