@@ -1,10 +1,13 @@
 .bento-grid {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto;
   gap: var(--sp-l);
   list-style-type: none;
+  padding-top: var(--sp-m);
 }
 
 .grid-item {
-  padding: var(--sp-m);
+  border-radius: 10px;
+  overflow: hidden;
 }
