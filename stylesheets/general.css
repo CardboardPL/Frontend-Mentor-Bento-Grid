@@ -16,7 +16,7 @@ body {
   font-style: normal;
   letter-spacing: 0;
   line-height: 1.5;
-  background-color: var(--clr-white);
+  background-color: hsl(0, 0%, 96%);
 }
 
 main {
@@ -25,4 +25,12 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: var(--fw-m);
+  line-height: 1;
+  letter-spacing: -0.7px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
