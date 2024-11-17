@@ -56,6 +56,10 @@
   text-align: center;
 }
 
+.u-lh--smd {
+  line-height: 1.15;
+}
+
 .u-lh--sm {
   line-height: 0.91;
 }
@@ -68,8 +72,16 @@
   letter-spacing: -0.16px;
 }
 
+.u-lttr-sp--xsm-0 {
+  letter-spacing: -0.15625px;
+}
+
 .u-lttr-sp--xsm {
   letter-spacing: -1.7575px;
+}
+
+.u-lttr-sp--xxsm {
+  letter-spacing: -2.015px;
 }
 
 /* Color Utility Classes */
@@ -127,7 +139,15 @@
   height: 137px;
 }
 
+.u-h--xxxl {
+  height: 273px;
+}
+
 /* Width Utility Classes */
+.u-w--full {
+  width: 100%;
+}
+
 .u-w--xm {
   width: 208px;
 }
@@ -137,13 +157,25 @@
   margin-top: 5px;
 }
 
+.u-mrgn--lr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .u-mrgn--t-m {
   margin-top: 24px;
 }
 
-.u-mrgn--lr-auto {
-  margin-left: auto;
-  margin-right: auto;
+.u-mrgn--b-md-plus {
+  margin-bottom: 25px;
+}
+
+.u-mrgn--r-xxsm {
+  margin-right: 2px;
+}
+
+.u-mrgn--t-msm-minus {
+  margin-top: 15px;
 }
 
 .u-mrgn--b-msm-0 {
@@ -154,6 +186,10 @@
   margin-bottom: 20px;
 }
 
+.u-mrgn--b-md-minus {
+  margin-bottom: 23px;
+}
+
 /* Padding Utility Classes */
 .u-pdng--m {
   padding: var(--sp-m);
@@ -162,6 +198,11 @@
 .u-pdng--lr-sm {
   padding-left: 8px;
   padding-right: 8px;
+}
+
+.u-pdng--lr-msm-plus {
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .u-pdng--t-m-minus {
