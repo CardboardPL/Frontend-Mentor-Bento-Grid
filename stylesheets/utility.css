@@ -42,6 +42,10 @@
 }
 
 /* Font Size Utility Classes */
+.u-f-si--md {
+  font-size: 32px;
+}
+
 .u-f-si--l {
   font-size: 46px;
 }
@@ -66,6 +70,10 @@
 
 .u-lh--xsm {
   line-height: 0.9;
+}
+
+.u-lh--xxsm {
+  line-height: 0.87;
 }
 
 .u-lttr-sp--sm {
@@ -205,12 +213,25 @@
   padding-right: 17px;
 }
 
+.u-pdng--lr-lg {
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
 .u-pdng--t-m-minus {
   padding-top: calc(var(--sp-m) - 0.055rem);
 }
 
+.u-pdng--t-md-minus-2 {
+  padding-top: 22px;
+}
+
 .u-pdng--b-m-minus {
   padding-bottom: calc(var(--sp-m) - 0.055rem);
+}
+
+.u-pdng--b-md-minus {
+  padding-bottom: 23px;
 }
 
 .u-pdng--b-n {
