@@ -174,6 +174,10 @@
   margin-top: 24px;
 }
 
+.u-mrgn--t-md-plus-16 {
+  margin-top: 40px;
+}
+
 .u-mrgn--b-md-plus {
   margin-bottom: 25px;
 }
@@ -230,8 +234,8 @@
   padding-bottom: calc(var(--sp-m) - 0.055rem);
 }
 
-.u-pdng--b-md-minus {
-  padding-bottom: 23px;
+.u-pdng--b-md {
+  padding-bottom: 24px;
 }
 
 .u-pdng--b-n {
